@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const url = "http://localhost:5000";
-  // const url = ""; // prod
+  // const url = "http://localhost:5000"; //dev
+  const url = "https://backend-1-glo8.onrender.com"; // prod
 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
