@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const url = "http://localhost:5000";
-  // const url = "https://client-server-single-app-backend.onrender.com"; // prod
+  // const url = ""; // prod
 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
